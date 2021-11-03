@@ -15,7 +15,8 @@ public class DemoTest {
 		int a=10;
 		int b=20;
 		int c=10;
-		Assert.assertEquals(30, a+b+c);
+		int d=10;
+		Assert.assertEquals(50, a+b+c+d);
 	}
 	
 	@Test
