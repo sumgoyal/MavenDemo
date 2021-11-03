@@ -14,7 +14,8 @@ public class DemoTest {
 		System.out.println("Sum Method");
 		int a=10;
 		int b=20;
-		Assert.assertEquals(30, a+b);
+		int c=10;
+		Assert.assertEquals(30, a+b+c);
 	}
 	
 	@Test
